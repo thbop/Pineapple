@@ -242,7 +242,7 @@ class Game:
                 if event.type == pygame.QUIT:
                     running = False
                 if event.type == pygame.KEYDOWN:
-                    if event.key == pygame.K_z:
+                    if event.key == pygame.K_c:
                         self.player.jump()
                 
                 if event.type == pygame.JOYBUTTONDOWN:
