@@ -1,0 +1,36 @@
+{
+    "rooms":{
+        "0":{
+            "pineapples":3,
+            "next":"1"
+        },
+        "1":{
+            "pineapples":2,
+            "next":"2"
+        },
+		"2":{
+            "pineapples":3,
+            "next":"3"
+        },
+        "3":{
+            "pineapples":5,
+            "next":"4"
+        },
+        "4":{
+            "pineapples":9,
+            "next":"5"
+        },
+        "5":{
+            "pineapples":1,
+            "next":"END"
+        }
+    },
+    "world":{
+        "sky":[20, 39, 45],
+		"grades":[
+            {"color":[33, 21, 21], "tex":null, "blend":"sub"},
+            {"color":null, "tex":"Assets/Graphics/Grades/magical.png", "blend":"add"}
+        ],
+        "weather":"rain"
+    }
+}
